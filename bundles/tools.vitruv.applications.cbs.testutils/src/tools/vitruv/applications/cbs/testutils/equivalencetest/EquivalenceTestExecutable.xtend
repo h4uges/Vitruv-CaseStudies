@@ -87,7 +87,7 @@ package class EquivalenceTestExecutable implements Executable, AutoCloseable {
 			withChangePropagationSpecifications(changePropagationSpecifications).buildAndInitialize()
 		new DirectoryTestView(
 			new ChangePublishingTestView(viewDirectory, userInteraction, uriMode, vsum, vsum.uuidResolver) [
-				vsum.getModelInstance(it)?.resource
+				vsum.getModelInstance(it) as Resource
 			],
 			viewDirectory
 		)

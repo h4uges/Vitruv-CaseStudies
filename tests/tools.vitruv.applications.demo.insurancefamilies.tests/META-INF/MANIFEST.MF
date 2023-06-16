@@ -8,4 +8,5 @@ Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-Vendor: vitruv.tools
 Import-Package: org.junit.jupiter.api
 Require-Bundle: tools.vitruv.dsls.demo.insurancefamilies.tests,
- tools.vitruv.testutils.vsum
+ tools.vitruv.testutils.vsum,
+ tools.vitruv.change.changederivation

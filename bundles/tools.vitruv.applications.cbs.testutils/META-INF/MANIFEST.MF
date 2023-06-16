@@ -26,7 +26,8 @@ Require-Bundle: tools.vitruv.testutils.vsum,
  org.hamcrest.core,
  org.opentest4j,
  tools.vitruv.framework.applications;visibility:=reexport,
- tools.vitruv.applications.util.temporary
+ tools.vitruv.applications.util.temporary,
+ tools.vitruv.change.changederivation
 Export-Package: tools.vitruv.applications.cbs.testutils,
  tools.vitruv.applications.cbs.testutils.equivalencetest,
  tools.vitruv.applications.cbs.testutils.junit
